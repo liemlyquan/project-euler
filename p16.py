@@ -8,15 +8,11 @@
 '''
 
 number = str(2**1000)
-print("Number", number)
-
 
 sum = 0
 while (len(number) > 1):
   sum += int(number[len(number) - 1])
-
   number = number[:-1]
-  print(number)
-  print(sum)
+
 
 print(sum)
