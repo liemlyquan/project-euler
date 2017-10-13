@@ -23,4 +23,7 @@ while (primeCounter < 10001):
     primeCounter += 1
     print("Counter", primeCounter)
     print("Number", number)
-  number += 1
+  if (number > 2):
+    number += 2
+  else:
+    number += 1
